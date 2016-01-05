@@ -372,7 +372,7 @@ body {
     text-decoration: none;
     font-size: 1.3em;
     color: white;
-    padding: 3px 35px 0 0;
+    padding: 3px 24px 0 0;
     font-family: Novecento;
 }
 
@@ -389,6 +389,12 @@ body {
 
 .test-search {
     float: right;
+    color:white;
+    border:1px solid white;
+    border-radius:5px;
+    height:20px;
+    background:url(../img/search.png) no-repeat right top;
+
 }
 
 .test-head {
