@@ -259,17 +259,32 @@ header {
 
 }
 
+.input-day:focus{
+    border:1px solid #83161e;
+}
 .footer {
     width: 1050px;
     margin: 0 auto;
+    margin-top:50px;
 }
 
 .radio {
-
+    position: relative;
 }
 
 .font {
     font-family: helveticaneuecyrroman;
+}
+.model-text{
+    margin-bottom: 10px
+}
+.car-text{
+
+}
+.venza{
+    position: relative;
+    margin-bottom: -10px;
+    margin-left: 27px;
 }
 
 .font-color-checkbox {
@@ -289,17 +304,83 @@ header {
 }
 
 .test-but {
-    background-color: #fe372f;
+    background-color: #fe3c34;
+
     color: white;
     font-family: helveticaneuecyrroman, serif;
     font-size: 24px;
     padding: 10px 70px 10px 80px;
+    margin-top: 20px;
+    margin-bottom: 35PX;
+    border:none;
+}
+
+.arrow {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAQCAMAAAA7+k+nAAAAolBMVEX///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9MEo+OAAAANXRSTlMAAQIFBgcLDg8REhQVFxwiJigpLjAzNDc4RlteZHCCiY6Vmp2tsr7HztXX2dre4ujp8/f5/UsNhtkAAACDSURBVHgBdZBXEsIwDEQVOgRD6L1DKBAKZu9/NazxMGMEel87b3+0IkGBFG5GKWCHSgFMtAKrXGhK/dn6kGVgdvmPjQYpQs4V780egkfCvv2CxPacb/76a5233oHTtNuoxa3R/AImLZJjg4X5PncZcYq3VbFj7FMiBj479JdjWRr59jcZRRlnWaMf/AAAAABJRU5ErkJggg==);
+    background-repeat: no-repeat;
+    background-position: 15px;
 }
 .input-none{
     width:0;
     height:0;
     display:none;
+
 }
+.for-label-venza:before{
+    content: "";
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 50%;
+    top: 2px;
+    left: -23px;
+    width: 15px;
+    height: 15px;
+
+}
+.for-label-venza:after{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background: black;
+    left: -18px;
+    top: 6px;
+    width: 9px;
+    height: 9px;
+    display: none;
+
+
+}
+
+#venza:checked+.for-label-venza:after {
+    display: inline-block;}
+
+.for-label-corolla:before{
+    content:"";
+    position:absolute;
+    border: 1px solid black;
+    border-radius:50%;
+    top: 2px;
+    left: -23px;
+    width: 15px;
+    height: 15px;
+
+}
+.for-label-corolla:after{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background: black;
+    left: -18px;
+    top: 6px;
+    width: 9px;
+    height: 9px;
+    display: none;
+
+}
+
+#corolla:checked+.for-label-corolla:after {
+    display: inline-block;}
+
 .for-label{
     padding-left:10px;
 }
@@ -387,6 +468,8 @@ header {
 }
 .minutes .jq-selectbox__select{
     border-left:none;
+    height: 35px;
+
 }
 
 .jq-selectbox__trigger-arrow{

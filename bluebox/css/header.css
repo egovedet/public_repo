@@ -1,0 +1,137 @@
+.header{
+    background:white;
+
+}
+.vertical-wrap{
+    margin:30px 0px;
+}
+.logo-text{
+    font-family:pt_sansbold;
+    text-transform: uppercase;
+    display:inline-block;
+    font-size:30px;
+    vertical-align: super;
+    margin-left: 20px;
+
+}
+.logo-href{
+    text-decoration: none;
+    color:black;
+
+}
+
+.menu{
+    display:inline-block;
+    vertical-align: super;
+    font-family:pt_sansregular;
+    margin-left:160px;
+    text-transform: uppercase;
+    color:#626262;
+
+}
+.menu :last-child{
+    border-right:none;
+}
+.menu li{
+    display: inline-block;
+    padding-right:10px;
+    padding-left:10px;
+    padding-top:-1px;
+    border-right:3px solid #a1a1a1;
+
+
+}
+.menu li>a {
+    text-decoration: none;
+    color:#626262;
+}
+
+.menu li>a:hover {
+    color:#22b9ff;
+}
+
+.fotorama__wrap--css3.fotorama__wrap--no-controls.fotorama__wrap--slide.fotorama__wrap--toggle-arrows .fotorama__arr--prev:not(:focus) {
+    transform:none !important;
+
+}
+.fotorama__wrap--no-controls.fotorama__wrap--toggle-arrows .fotorama__arr, .fotorama__wrap--no-controls.fotorama__wrap--toggle-arrows .fotorama__fullscreen-icon{
+    opacity:1 !important;
+}
+
+.fotorama__wrap--css3.fotorama__wrap--no-controls.fotorama__wrap--slide.fotorama__wrap--toggle-arrows .fotorama__arr--next:not(:focus) {
+    -webkit-transform: none;
+    transform: none;
+}
+
+.fotorama__arr--disabled {
+    opacity: 1;
+}
+
+
+.title{
+    font-family: pt_sansregular,serif;
+    color:#626262;
+    font-size: 30px;
+    padding-bottom: 30px;
+
+    padding-top:55px;
+}
+
+.popup-gallery{
+    font-size:0;
+}
+.popup_wrap{
+    display:inline-block;
+    position:relative;
+    width: 250px;
+    height: 200px;
+}
+
+.popup-menu{
+    opacity:0;
+    position:absolute;
+    background-color:#00aeff;
+    width:100%;
+    height:100%;
+    font-size:20px;
+    top:0;
+    left:0;
+}
+
+.popup-menu:hover{
+    opacity:1;
+}
+
+.link-view{
+    position:absolute;
+    width:70px;
+    height:40px;
+    background-image: url("../img/view.png");
+    background-color:#008bcc;
+    bottom: 0;
+}
+
+.link{
+    position:absolute;
+    width:70px;
+    height:40px;
+    background-image: url("../img/link.png");
+    background-color:#008bcc;
+    bottom:0;
+    right:0;
+
+}
+h5{
+    font-family:pt_sansbold, serif;
+    color:white;
+    font-size:24px;
+    margin-top:10px;
+
+}
+
+.popup_text{
+    font-family: pt_sansregular, serif;
+    color:white;
+    font-size:15px;
+    margin-top:10px;
+}
