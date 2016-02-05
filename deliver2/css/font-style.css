@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Novecento; /* Имя шрифта */
+    src: url(../fonts/NovecentosansDemiBold.otf);
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url(../fonts/helveticaneuecyrlight.otf);
+}

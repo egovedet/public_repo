@@ -1,0 +1,484 @@
+header {
+    min-width: 1000px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    margin: 0 auto;
+    background-image: url("../img/texture.png");
+}
+.main-wrap{
+    min-width:960px;
+    max-width:1600px;
+    margin:0 auto;
+}
+.logo {
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+.toyota {
+    display: inline-block;
+    vertical-align: top;
+    font-family: helveticaneuecyrroman;
+    font-size: 18pt;
+    color: #ca3e38;
+    padding: 35px 122px 0px 20px;
+}
+
+.nav-list {
+    display: inline-block;
+    vertical-align: top;
+    left: -167px;
+    height: 98px;
+}
+
+.nav-item {
+    font-family: helveticaneuecyrthin;
+    height: 100px;
+    font-size: 28pt;
+
+    display: inline-block;
+    margin: 23px 20px 26px 11px;
+}
+.nav-item:hover{
+    color:#ca3e38;
+
+}
+.nav-item:after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    margin-top: 12px;
+    height: 2px;
+    width: 50px;
+    background-color: #ca3e38;
+}
+.main-info {
+    background: linear-gradient(to top right, #0b1725, #674c85, #cb8ebb, #cd94b6, #7d546d);
+    min-width: 960px;
+    padding-top: 130px;
+    position: relative;
+    overflow: hidden;
+}
+
+.dream {
+    font-family: helveticaneuecyrbold;
+    font-size: 82pt;
+    color: white;
+    padding-top: 107px;
+    padding-left: 125px;
+    width: 650px;
+    text-align: center;
+    display: inline-block;
+}
+
+.red {
+    color: #fe372f;
+}
+
+.contact-block {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    margin: 108px 0px 0px 220px;
+    width:3000px;
+    height: 155px;
+    border-radius: 15px 0px 0px 15px;
+    border: 1px solid white;
+    border-right: none;
+
+}
+
+.icon-style {
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    margin-left: -15px;
+    text-shadow: 2px 1px 8px black;
+    transition: all 1s ease-out 0.1s;
+
+}
+
+.icon-style:hover {
+    color: #810500;
+    text-shadow: none;
+    cursor: pointer;
+}
+
+.icons {
+    display: block;
+    width: 170px;
+    height: 30px;
+    margin-left: 93px;
+    margin-top: 15px;
+}
+
+.join-us {
+    font-family: helveticaneuecyrroman;
+    margin-top: 21px;
+    margin-left: 76px;
+
+}
+
+.join-cont {
+    font-family: helveticaneuecyrroman;
+    margin-top: 22px;
+    margin-left: 6px;
+    font-size: 23px;
+    display: inline-block;
+}
+
+.phone {
+    display: inline-block;
+    margin-left: 47px;
+}
+
+.left-column {
+    display: inline-block;
+    width: 470px;
+    vertical-align: top;
+}
+
+.right-column {
+    display: inline-block;
+    width: 470px;
+    margin-left: 42px;
+}
+
+.clearfix {
+    height: 60px;
+    clear: both;
+}
+
+.colums {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.list-style {
+    color: white;
+    font-family: helveticaneuecyrroman;
+    line-height: 30px;
+    padding-bottom: 70px;
+
+}
+
+.list-style-numeric {
+    color: white;
+    font-family: helveticaneuecyrroman;
+    list-style-type: none;
+    counter-reset: num;
+    line-height: 30px;
+    padding-bottom: 70px;
+
+}
+.list-style-numeric li:before{
+    content: counter(num);
+    margin-right: 10px;
+    counter-increment: num;
+    color: red;
+}
+
+.h1 {
+    font-family: helveticaneuecyrthin;
+    color: #83161e;
+    font-size: 30pt;
+}
+
+.h2 {
+    font-family: helveticaneuecyrthin;
+    color: #83161e;
+    font-size: 23pt;
+}
+
+.fotorama__img {
+    width: 100% !important;
+}
+
+.slide {
+    position: relative;
+
+}
+
+.slide-text {
+    position: absolute;
+    left: 30px;
+    top: 55px;
+    text-transform: uppercase;
+    font-family: helveticaneuecyrbold;
+    font-size: 57px;
+    line-height: 50px;
+    color: #24363f;
+    opacity: 0;
+}
+
+.slide-text > span {
+    color: #ff1620;
+}
+
+.slide > img {
+    width: 100%;
+}
+
+.fotorama__active .slide-text {
+    opacity: 1;
+    transition: opacity 1.5s;
+}
+
+.name {
+
+}
+
+.date {
+    margin-top: 25px;
+    padding-bottom: 35px;
+    Display: inline-block;
+}
+
+.time-hours {
+    display: inline-block;
+}
+
+.time-width {
+    width: 50px;
+}
+
+.input-height {
+    height: 37px;
+    font-size: 16px;
+
+}
+.input-name{
+    width:275px;
+}
+.input-day{
+    width: 87px;
+    padding-left: 38px;
+
+    background: url("../img/calendar.png") no-repeat 13px 7px;
+
+}
+
+.input-day:focus{
+    border:1px solid #83161e;
+}
+.footer {
+    width: 1050px;
+    margin: 0 auto;
+    margin-top:50px;
+}
+
+.radio {
+    position: relative;
+}
+
+.font {
+    font-family: helveticaneuecyrroman;
+}
+.model-text{
+    margin-bottom: 10px
+}
+.car-text{
+
+}
+.venza{
+    position: relative;
+    margin-bottom: -10px;
+    margin-left: 27px;
+}
+
+.font-color-checkbox {
+    color: #666666;
+    position:relative;
+}
+
+.size {
+
+}
+
+.test-drive {
+    font-family: helveticaneuecyrthin;
+    font-size: 30px;
+    color: #fe372f;
+    margin-bottom: 30px;
+}
+
+.test-but {
+    background-color: #fe3c34;
+
+    color: white;
+    font-family: helveticaneuecyrroman, serif;
+    font-size: 24px;
+    padding: 10px 70px 10px 80px;
+    margin-top: 20px;
+    margin-bottom: 35PX;
+    border:none;
+}
+
+.arrow {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAQCAMAAAA7+k+nAAAAolBMVEX///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9MEo+OAAAANXRSTlMAAQIFBgcLDg8REhQVFxwiJigpLjAzNDc4RlteZHCCiY6Vmp2tsr7HztXX2dre4ujp8/f5/UsNhtkAAACDSURBVHgBdZBXEsIwDEQVOgRD6L1DKBAKZu9/NazxMGMEel87b3+0IkGBFG5GKWCHSgFMtAKrXGhK/dn6kGVgdvmPjQYpQs4V780egkfCvv2CxPacb/76a5233oHTtNuoxa3R/AImLZJjg4X5PncZcYq3VbFj7FMiBj479JdjWRr59jcZRRlnWaMf/AAAAABJRU5ErkJggg==);
+    background-repeat: no-repeat;
+    background-position: 15px;
+}
+.input-none{
+    width:0;
+    height:0;
+    display:none;
+
+}
+.for-label-venza:before{
+    content: "";
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 50%;
+    top: 2px;
+    left: -23px;
+    width: 15px;
+    height: 15px;
+
+}
+.for-label-venza:after{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background: black;
+    left: -18px;
+    top: 6px;
+    width: 9px;
+    height: 9px;
+    display: none;
+
+
+}
+
+#venza:checked+.for-label-venza:after {
+    display: inline-block;}
+
+.for-label-corolla:before{
+    content:"";
+    position:absolute;
+    border: 1px solid black;
+    border-radius:50%;
+    top: 2px;
+    left: -23px;
+    width: 15px;
+    height: 15px;
+
+}
+.for-label-corolla:after{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background: black;
+    left: -18px;
+    top: 6px;
+    width: 9px;
+    height: 9px;
+    display: none;
+
+}
+
+#corolla:checked+.for-label-corolla:after {
+    display: inline-block;}
+
+.for-label{
+    padding-left:10px;
+}
+.for-label:before{
+    content:"";
+    position: absolute;
+    left: -10px;
+    top: 2px;
+
+    width: 10px;
+    height: 10px;
+    border:1px solid black;
+
+}
+.for-label:after {
+    content:"";
+    position: absolute;
+    left: -8px;
+    top: 5px;
+    width: 8px;
+    height: 7px;
+    background:red;
+    display:none;
+
+}
+#checked:checked+.for-label:after {
+    display: inline-block;
+}
+
+.fotorama-bottom{
+    float: right;
+}
+
+.testdrive-record{
+    display: inline-block;
+}
+
+/*Fotorama-cars & fotorama-bottom styles*/
+
+
+.fotorama-cars .fotorama__arr {
+    position: absolute;
+    width: 25px;
+    height: 65px;
+    top: 50%;
+    margin-top: -16px;
+}
+
+.fotorama-cars .fotorama__nav--dots .fotorama__nav__frame{width:0px;height:0px}
+
+
+.fotorama-bottom .fotorama__arr, .fotorama__fullscreen-icon, .fotorama__video-close, .fotorama__video-play {
+    background: url(fotorama1.png) no-repeat;}
+.fotorama-bottom .fotorama__arr--next {
+    right: 2px;
+    background-position: -32px 0;}
+
+/*Timepicker stylyzing*/
+
+.jq-selectbox__select{
+    width: 37px;
+    padding: 0 15px 0 2px;
+    background: none;
+    box-shadow:none;
+    border-radius:0px;
+}
+.jq-selectbox__trigger {
+    right: 13px;
+    width: 24px;
+    border:none;
+
+}
+
+.hours .jq-selectbox__select{
+    border-right:none;
+    left:-1px;
+    height: 35px;
+}
+.jq-selectbox__select:hover {
+ background:none;
+}
+
+.jq-selectbox.focused .jq-selectbox__select{
+    border:1px solid #83161e;
+}
+.minutes .jq-selectbox__select{
+    border-left:none;
+    height: 35px;
+
+}
+
+.jq-selectbox__trigger-arrow{
+    right: -7px;
+    top:12px;
+    background-image: url(../img/arr-down.png);
+    background-repeat: no-repeat;
+    border:none;
+    width: 25px;
+    height: 17px;
+
+}

@@ -1,0 +1,110 @@
+.main-wrap{
+    width:1000px;
+    margin:0 auto;
+}
+
+
+/*.fotorama{*/
+    /*width:100%;*/
+/*}*/
+.slider {
+    background-color: #31333e;
+    height: 550px;
+
+}
+.popup{
+    background-color:#e2e7ed;
+    height:610px;
+}
+.sizing{
+    margin:-3px;
+}
+
+.wrap-two .fotorama{
+    height:200px;
+}
+
+.wrap-one .fotorama{
+    position: relative;
+    top: 24px;
+}
+.part-link{
+    text-decoration:none;
+    margin: 0px 30px;
+
+}
+.footer{
+    background-color:31333e;
+}
+
+.clients-logo{
+    margin-left: 41px;
+    margin-top: 20px;
+}
+
+
+
+
+
+.search{
+    display: inline-block;
+    vertical-align: super;
+}
+
+.search-input{
+    border:none;
+    background-color:#f1f3f6;
+    font-family: pt_sansitalic, serif;
+    background-image: url("../img/search.png");
+    background-repeat: no-repeat;
+    background-position: 119px 2px;
+    padding: 7px 0px 4px 9px;
+}
+
+.slider-text{
+    display:inline-block;
+    font-family: pt_sansregular, serif;
+    color:white;
+
+    font-size: 30px;
+    margin-right: 50px;
+
+
+
+}
+.slider-button{
+    background-color:#00aeff;
+    color:white;
+    font-family:pt_sansregular,serif;
+    border:none;
+    padding: 20px 60px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.slider-text-button{
+    margin-top: 33px;
+    padding-left: 160px;
+}
+.iphone_mac{
+    position:relative;
+    margin-top:79px;
+
+}
+
+.fotorama__nav--dots {
+     display: none !important;
+
+}
+
+.fotorama__nav {
+    display:none !important;
+}
+
+.img2{
+    position:relative !important;
+    top:-24px !important;
+}
+
+img .fotorama_img{
+    top:-24;
+}
